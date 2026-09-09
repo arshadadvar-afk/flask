@@ -1,0 +1,26 @@
+body {
+    background-color: aqua;
+}
+div { 
+    color: black;
+    width: 400px;
+    margin: 20px;
+    text-align: center;
+     
+}
+
+#login2 {
+    text-align: center;
+    width: 400px;
+    margin: 20px;
+    
+}
+
+#Login {
+    background-color:bisque;
+    text-align:center;
+    width: 100px;
+    margin: 2px;
+    color:black;
+}
+
