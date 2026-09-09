@@ -8,7 +8,7 @@ data = [
 
 def ai (q):
     if q:
-        return 'من یک هوش مصتوعی هستم و هنوز آماده برای کمک به شما نشده ام !'
+        return 'سلام من یک هوش مصتوعی هستم و هنوز آماده برای کمک به شما نشده ام !\nHello, I am an AI, and I am not yet ready to help you!'
 
 @app.route('/')
 def Home():
