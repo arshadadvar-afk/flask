@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for ('static', filename='style2.css')}}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page</title>
+</head>
+<body>
+    <form action="/page" method="post">
+        <label>message:</label>
+        <input type="text" class="message" name="message" placeholder=":پیامت را وارد کن">
+        <button type="submit">
+            ارسال
+        </button>
+    </form>
+    {% if answer %}
+        <h3>AI:</h3>
+        <h4>{{answer}}</h4>
+    {% endif %}
+</html
